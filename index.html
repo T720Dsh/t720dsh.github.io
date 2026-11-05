@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sihan Du (杜思汗), research master's student in Data Science and Information Technology at Tsinghua SIGS. Research interests in 3D/4D vision, animation agents and machine learning.">
+  <meta name="theme-color" content="#225ed5">
+  <title>Sihan Du | Tsinghua University</title>
+  <link rel="canonical" href="https://t720dsh.github.io/">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+</head>
+<body>
+  <a class="skip" href="#about">Skip to content</a>
+  <header class="header">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="#home">Sihan Du <span lang="zh-CN">杜思汗</span></a>
+      <div class="nav-links"><a href="#about">About</a><a href="#research">Research</a><a href="#github">GitHub Projects</a><a href="#education">Education</a><a href="#contact">Contact</a></div>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-inner wrap">
+        <div class="hero-copy">
+          <p class="eyebrow">TSINGHUA UNIVERSITY · SIGS</p>
+          <h1>Sihan Du <span lang="zh-CN">杜思汗</span></h1>
+          <p class="position">Research Master’s Student in<br>Data Science and Information Technology</p>
+          <p class="hero-interests">3D / 4D Vision · Animation Agents · Machine Learning</p>
+          <a class="email-link" href="mailto:971959796@qq.com">971959796@qq.com <span aria-hidden="true">↗</span></a>
+          <div class="actions"><a class="button primary" href="mailto:971959796@qq.com"><span aria-hidden="true">✉</span> Contact Me</a><a class="button secondary" href="#research">Explore My Research <span aria-hidden="true">↓</span></a><a class="button secondary" href="https://github.com/T720Dsh" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+        </div>
+        <figure class="hero-visual portrait-figure">
+          <img class="portrait" src="portrait.jpg" width="2094" height="2770" alt="Sihan Du in graduation attire at Fudan University" fetchpriority="high">
+        </figure>
+      </div>
+    </section>
+    <section id="about" class="section wrap">
+      <div class="section-heading"><span class="section-number">01</span><h2>About Me</h2></div>
+      <div class="about-body">
+        <p>I am a research master’s student in <strong>Data Science and Information Technology (DSIT)</strong> at <strong>Tsinghua Shenzhen International Graduate School, Tsinghua University</strong>. My undergraduate background is in Information and Computing Science at Fudan University.</p>
+        <p>My current interests lie at the intersection of <strong>3D/4D computer vision, animation, and AI agents</strong>. I am exploring how visual observations can be translated into editable 3D motion, and how agents can use reusable skills and visual feedback to create and refine animation.</p>
+        <p>My previous work includes reinforcement learning experiments for reasoning and interpretable modeling of medical images. These experiences shape my interest in combining mathematical modeling with practical, verifiable AI systems.</p>
+        <div class="interest-line"><span>Research interests</span><p>3D / 4D Vision <i>·</i> Video-to-Animation <i>·</i> AI Agents <i>·</i> Reinforcement Learning</p></div>
+      </div>
+    </section>
+    <section id="research" class="research-section">
+      <div class="wrap section">
+        <div class="section-heading"><span class="section-number">02</span><h2>Research &amp; Projects</h2></div>
+        <p class="section-intro">Current explorations and selected previous research experience.</p>
+        <article class="project">
+          <div class="project-art animation-art" role="img" aria-label="Concept diagram showing a video observation, an editable motion program, and visual feedback"><div class="frames"><span></span><span></span><span></span></div><div class="diagram-arrow">↓</div><div class="program">video → motion program</div><div class="feedback">render ↔ visual feedback</div><small>CONCEPTUAL WORKFLOW</small></div>
+          <div class="project-copy"><div class="project-meta"><span class="status">Ongoing research</span><span>3D / 4D Vision</span></div><h3>Video-driven 3D Animation with AI Agents</h3><p>Exploring a workflow that turns animal-motion observations into editable Blender animation programs. The research focuses on reusable motion skills, skeletal animation, and iterative refinement through rendered visual feedback.</p><div class="tags"><span>Animation agents</span><span>Motion skills</span><span>Blender / Python</span></div><details><summary>Research focus</summary><p>How can reusable motion representations transfer across videos and animal morphologies? How can visual feedback help an agent diagnose and improve an executable animation program?</p></details></div>
+        </article>
+        <article class="project">
+          <div class="project-art rl-art" role="img" aria-label="Concept diagram of group-relative policy learning"><div class="sample-row"><span>r₁</span><span>r₂</span><span>r₃</span><span>r₄</span></div><div class="diagram-arrow">↓</div><div class="formula">Aᵢ = (rᵢ − μ) / σ</div><div class="feedback">relative rewards · policy updates</div><small>METHOD ILLUSTRATION</small></div>
+          <div class="project-copy"><div class="project-meta"><span class="status previous">Undergraduate thesis</span><span>2026</span></div><h3>Reinforcement Learning for Reasoning</h3><p>Studied reinforcement learning approaches to language-model reasoning, including group-relative policy optimization and KL regularization. Conducted controlled simulation experiments comparing a GRPO-lite approach with REINFORCE in a discrete question-answering setting.</p><div class="tags"><span>Reinforcement learning</span><span>GRPO</span><span>Controlled experiments</span></div><details><summary>Scope of the experiments</summary><p>The empirical comparison uses a controlled simulation environment. It does not establish improvements from fine-tuning a full-scale language model.</p></details></div>
+        </article>
+        <article class="project">
+          <div class="project-art brain-art" role="img" aria-label="Concept illustration of spatially connected image regions"><div class="voxels"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div><div class="feedback">spatial structure + anatomy</div><small>METHOD ILLUSTRATION</small></div>
+          <div class="project-copy"><div class="project-meta"><span class="status previous">Previous research</span><span>2025</span></div><h3>Interpretable Modeling of Regional Brain Aging</h3><p>Worked on voxel-wise nonlinear regression with spatial–anatomical regularization using ADNI and HCP-Aging imaging data. Implemented regression models and regularization schemes, and evaluated regional prediction error and the interpretability of parameter maps.</p><div class="tags"><span>Medical imaging</span><span>PyTorch</span><span>Spatial regularization</span></div></div>
+        </article>
+      </div>
+    </section>
+    <section id="github" class="section wrap github-section">
+      <div class="section-heading"><span class="section-number">03</span><h2>GitHub Projects</h2></div>
+      <div class="github-heading"><p>Personal projects in interactive 3D environments, AI characters, and games.</p><a href="https://github.com/T720Dsh" target="_blank" rel="noopener noreferrer">@T720Dsh ↗</a></div>
+      <div class="repo-grid">
+        <article class="repo-card"><div class="repo-category">AI × INTERACTIVE 3D</div><h3><a href="https://github.com/T720Dsh/classroom-ai" target="_blank" rel="noopener noreferrer">Classroom AI <span aria-hidden="true">↗</span></a></h3><p>An interactive 3D classroom with locally powered language-model characters. Explore conversations, distinct personalities, and reactions to actions in the scene.</p><div class="tags"><span>JavaScript</span><span>Python</span><span>Local LLMs</span></div><a class="repo-link" href="https://github.com/T720Dsh/classroom-ai" target="_blank" rel="noopener noreferrer">View repository ↗</a></article>
+        <article class="repo-card"><div class="repo-category">3D GAME DEVELOPMENT</div><h3><a href="https://github.com/T720Dsh/Tetris" target="_blank" rel="noopener noreferrer">Tetris 3D Rush <span aria-hidden="true">↗</span></a></h3><p>A Tetris game built with Unreal Engine 5 and C++, featuring a freely rotating 3D view, multiple play modes, and customizable materials and backgrounds.</p><div class="tags"><span>Unreal Engine 5</span><span>C++</span><span>Windows</span></div><a class="repo-link" href="https://github.com/T720Dsh/Tetris" target="_blank" rel="noopener noreferrer">View repository ↗</a></article>
+        <article class="repo-card"><div class="repo-category">SPORTS × SIMULATION</div><h3><a href="https://github.com/T720Dsh/spike-elite" target="_blank" rel="noopener noreferrer">Spike Elite <span aria-hidden="true">↗</span></a></h3><p>An Unreal Engine 5 indoor volleyball game project, exploring court environments, player perspectives, and volleyball gameplay, with design documents and a development roadmap.</p><div class="tags"><span>Unreal Engine 5</span><span>C++</span><span>Volleyball</span></div><a class="repo-link" href="https://github.com/T720Dsh/spike-elite" target="_blank" rel="noopener noreferrer">View repository ↗</a></article>
+      </div>
+    </section>
+    <section id="education" class="section wrap">
+      <div class="section-heading"><span class="section-number">04</span><h2>Education</h2></div>
+      <div class="education-entry"><div class="school-mark" aria-hidden="true">T</div><div><h3>Tsinghua University</h3><p>Shenzhen International Graduate School</p><p>Research Master’s · Data Science and Information Technology</p></div><span class="edu-date">2026 — Present</span></div>
+      <div class="education-entry"><div class="school-mark fudan" aria-hidden="true">F</div><div><h3>Fudan University</h3><p>School of Mathematical Sciences</p><p>Undergraduate studies · Information and Computing Science</p></div><span class="edu-date">2022 — 2026</span></div>
+    </section>
+    <section id="contact" class="contact-section"><div class="wrap contact-inner"><div><p class="eyebrow">GET IN TOUCH</p><h2>Let’s connect.</h2><p>I welcome conversations about 3D vision, animation, and AI agents.</p></div><div class="contact-details"><strong>Sihan Du <span lang="zh-CN">杜思汗</span></strong><a href="mailto:971959796@qq.com">971959796@qq.com <span aria-hidden="true">↗</span></a><p>Tsinghua Shenzhen International Graduate School<br>Shenzhen, China</p><a class="contact-github" href="https://github.com/T720Dsh" target="_blank" rel="noopener noreferrer">GitHub · T720Dsh ↗</a></div></div></section>
+  </main>
+  <footer class="wrap footer"><span>© 2026 Sihan Du</span><span>Last updated · November 2026</span><a href="#home">Back to top ↑</a></footer>
+</body>
+</html>
+
